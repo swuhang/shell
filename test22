@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -d shell ] || [ -x case ]
+then
+	echo "shell exists or case can run"
+else
+	echo "there is not right condition"
+fi
